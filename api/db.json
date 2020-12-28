@@ -21,8 +21,15 @@
     {
       "id": 4,
       "title": "Fone de Ouvido Jaybird Run XT Sport Bluetooth, Cinza",
-      "price": 699.90,
+      "price": 699.9,
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem_url/9c4b176eb52bb4877e853cf36393d8fc.jpg"
+    },
+    {
+      "title": "Achocolatado Em Pó, Nescau 2.0, 400g",
+      "url": "https://amzn.to/3hnbgUk",
+      "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem/16d4a291601c2b2c5592d9fdaa215500.png",
+      "price": "4",
+      "id": 5
     }
   ],
   "comments": [

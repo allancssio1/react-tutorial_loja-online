@@ -1,14 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'
+import PromotionForm from 'Components/Promotion/Form/Form'
+import UIContainer from 'Components/Container/Container'
 
-const PromotionForm = () => {
+const PagesPromotionForm = () => {
   const { id } = useParams
 
   return (
-    <div>
-      Form
-      {id && <div> id: {id} </div>}
-    </div>
+    <UIContainer>
+      <PromotionForm />
+    </UIContainer>
   )
 }
-export default PromotionForm
+export default PagesPromotionForm
