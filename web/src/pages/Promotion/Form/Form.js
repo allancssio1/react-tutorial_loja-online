@@ -4,11 +4,11 @@ import PromotionForm from 'Components/Promotion/Form/Form'
 import UIContainer from 'Components/Container/Container'
 
 const PagesPromotionForm = () => {
-  const { id } = useParams
+  const { id } = useParams()
 
   return (
     <UIContainer>
-      <PromotionForm />
+      <PromotionForm id={id ? Number.parseInt(id, 10) : null}/>
     </UIContainer>
   )
 }
